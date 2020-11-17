@@ -25,7 +25,7 @@ This project is created for learning React Native basics. Use the menu links to 
 
 # API
 - [Modules Used For API](#modules-used-for-api)
-- [How does it work?](#how-does-it-work)
+- [How does it work?](#how-does-api-work)
 
 # Mobile App
 
@@ -43,12 +43,14 @@ This project is created for learning React Native basics. Use the menu links to 
 
 # Web Scrapper
 
-## How does it work
+## How does api work
  For scrapping data from announcement pages, i choose to use beautifulsoup4. Basically it finds strings between or inside tags. Then i store the scrapped data in a database...
  
 ## Modules Used
 *pymysql
+
 *beautifulsoup
+
 *urllib
 
 # API
@@ -57,4 +59,5 @@ This project is created for learning React Native basics. Use the menu links to 
  I used flask to create an endpoint for mobile app.
 ## Modules Used For API
 *flask
+
 *pymysql
