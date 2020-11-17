@@ -1,6 +1,4 @@
-//TODO data bu scriptte fetchlenecek cunku sayfa arası geçişte zaman alıyor 
-//FIX bağlantı olmayınca detay sayfası açılmıyor 
-//TODO internet bağlantısı uyarısı verilecek
+
 import React, { Component } from 'react';
 import SplashScreen from 'react-native-splash-screen';
 import TabScreen from './views/TabScreen';
