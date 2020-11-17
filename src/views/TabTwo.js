@@ -19,7 +19,7 @@ export default class ListThumbnailExample extends Component {
   }
  
 fetchData() {
-    fetch('http://192.168.1.19:5000/muh_fak')
+    fetch('localhost')
       .then((response) => response.json())
       .then((responseJson) => {
         this.setState({ package: responseJson,dataIsReturned:true});
