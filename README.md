@@ -55,7 +55,7 @@ This project is created for learning React Native basics. Use the menu links to 
 
 # API
 
-## How does it work
+## How does api work
  I used flask to create an endpoint for mobile app.
 ## Modules Used For API
 *flask
