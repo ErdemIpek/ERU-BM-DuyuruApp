@@ -1,7 +1,3 @@
-//TODO  Duyuru detayının içine paylaşma butonu eklenecek(native base fabs)
-//FIXME Icon fixlenecek
-
-
 import React, { Component } from 'react';
 import { Container, Header, Tab, Tabs, Text} from 'native-base';
 import {StyleSheet} from 'react-native';
