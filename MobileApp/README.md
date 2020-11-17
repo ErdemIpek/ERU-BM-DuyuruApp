@@ -6,7 +6,7 @@ Hi! This is a university announcements project written for learning React Native
 # Screenshots: 
 
 
-<img src="https://github.com/ErdemIpek/duyuruapp/blob/master/src/splash.jpeg?raw=true" width="250" height="500"> <img src="https://github.com/ErdemIpek/duyuruapp/blob/master/src/loadingpage.jpeg?raw=true" width="250" height="500"> <img src="https://github.com/ErdemIpek/duyuruapp/blob/master/src/page2.jpeg?raw=true" width="250" height="500"> 
+<img src="https://github.com/ErdemIpek/ERU-BM-DuyuruApp/blob/master/MobileApp/src/splash.jpeg?raw=true" width="250" height="500"> <img src="https://github.com/ErdemIpek/ERU-BM-DuyuruApp/blob/master/MobileApp/src/loadingpage.jpeg?raw=true" width="250" height="500"> <img src="https://github.com/ErdemIpek/ERU-BM-DuyuruApp/blob/master/MobileApp/src/src/page2.jpeg?raw=true" width="250" height="500"> 
 
 
 
