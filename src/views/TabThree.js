@@ -15,7 +15,7 @@ export default class ListThumbnailExample extends Component {
       refreshing: false,
     };
   }
- 
+ //Fetching data from localhost
   fetchData() {
     fetch('localhost')
       .then((response) => response.json())
@@ -72,6 +72,7 @@ export default class ListThumbnailExample extends Component {
       }
       });
 }
+//Page refreshing method
 onRefresh = () => {
   this.setState({ refreshing: true });
   // In actual case set refreshing to false when whatever is being refreshed is done!
@@ -96,7 +97,7 @@ onRefresh = () => {
           </Card>
 		)
   }
-
+    //Returns placeholders if data has not fetched yet
     if(this.state.dataIsReturned== true){
     return (
     <Container>
