@@ -17,7 +17,8 @@ export default class ListThumbnailExample extends Component {
       refreshing: false,
     };
   }
- 
+	
+//Fetching data from localhost
 fetchData() {
     fetch('localhost')
       .then((response) => response.json())
@@ -79,10 +80,9 @@ fetchData() {
     }
     });
 }
-
+//Page refreshing method
 onRefresh = () => {
   this.setState({ refreshing: true });
-  // In actual case set refreshing to false when whatever is being refreshed is done!
   setTimeout(() => {
     this.setState({ refreshing: false });
     this.fetchData();
@@ -104,6 +104,7 @@ onRefresh = () => {
           </Card>
 		)
   }
+    //Returns placeholders if data has not fetched yet
     if(this.state.dataIsReturned== true){
       return (
         <Container>
@@ -126,13 +127,11 @@ onRefresh = () => {
       else{
         
         return(
-          
           <Container>
             <Content>
               <ScrollView>
               {
                 loadingElements
-               
               }
               </ScrollView>
             </Content>
@@ -164,6 +163,5 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end',
     fontSize:12,
     color: '#143f90'
-  },
-  
+  }
 });
