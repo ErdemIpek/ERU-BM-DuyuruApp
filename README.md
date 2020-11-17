@@ -10,6 +10,26 @@
 <p><font size="3">
 This project is created for learning React Native basics. Use the menu links to jump between sections.  All of the code is under the <em>src</em> directory and free to use and contribute to.
   <h1 align="center">
-  Available for Android.
+  Available for Android
+    <br>
+    <img src="https://i.imgur.com/pEqrMEh.png"/>
   </h1>
-![screen.png](https://i.imgur.com/pEqrMEh.png)
+- [MobileAPP](#mobileapp)
+
+  - [Features](#features)
+  - [Build Process](#build)
+- [Recommended configurations](#recommended-configurations)
+
+## MobileAPP
+## Features
+
+* View recent announcements on three different websites.
+* Click on the announcement to go to the announcement page.
+* Pull to refresh the page.
+
+## Build
+- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) to get started.
+- Clone or download the repo.
+- `npm` to install dependencies.
+- `react-native run-android` to run the app on the emulator.
+
