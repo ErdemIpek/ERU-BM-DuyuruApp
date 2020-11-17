@@ -1,4 +1,4 @@
-# duyuruapp
+
 # [GitHub Repo](https://github.com/ErdemIpek/duyuruapp)
  
 Hi! This is a university announcements project written to learn React Native basics.
