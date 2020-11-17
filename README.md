@@ -14,13 +14,21 @@ This project is created for learning React Native basics. Use the menu links to 
     <br>
     <img src="https://i.imgur.com/pEqrMEh.png"/>
   </h1>
-- [MobileAPP](#mobileapp)
 
-  - [Features](#features)
-  - [Build Process](#build)
-- [Recommended configurations](#recommended-configurations)
+# Mobile App
+ - [Features](#features)
+ - [Build Process](#build)
+ 
+# Web Scrapper
+- [Modules Used](#modules-used)
+- [How does it work?](#how-does-it-work)
 
-## MobileAPP
+# API
+- [Modules Used For API](#modules-used-for-api)
+- [How does it work?](#how-does-it-work)
+
+# Mobile App
+
 ## Features
 
 * View recent announcements on three different websites.
@@ -28,8 +36,25 @@ This project is created for learning React Native basics. Use the menu links to 
 * Pull to refresh the page.
 
 ## Build
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) to get started.
-- Clone or download the repo.
-- `npm` to install dependencies.
-- `react-native run-android` to run the app on the emulator.
+* Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) to get started.
+* Clone or download the repo.
+* `npm` to install dependencies.
+* `react-native run-android` to run the app on the emulator.
 
+# Web Scrapper
+
+## How does it work
+ For scrapping data from announcement pages, i choose to use beautifulsoup4. Basically it finds strings between or inside tags. Then i store the scrapped data in a database...
+ 
+## Modules Used
+*pymysql
+*beautifulsoup
+*urllib
+
+# API
+
+## How does it work
+ I used flask to create an endpoint for mobile app.
+## Modules Used For API
+*flask
+*pymysql
