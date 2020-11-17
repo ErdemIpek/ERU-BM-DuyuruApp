@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "133105960633",
+    "firebase_url": "https://duyuru-release.firebaseio.com",
+    "project_id": "duyuru-release",
+    "storage_bucket": "duyuru-release.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133105960633:android:c05f49dd06ce839c0ffd68",
+        "android_client_info": {
+          "package_name": "com.duyuruapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133105960633-plg0b0lg73utp8f53t51binp2b20jjh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPxTQohOuJOaq2JWrr3N4eC_r21CP1vp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133105960633-plg0b0lg73utp8f53t51binp2b20jjh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
