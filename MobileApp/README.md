@@ -1,6 +1,8 @@
 
-# [GitHub Repo](https://github.com/ErdemIpek/duyuruapp)
- 
+# [GitHub Repo](https://github.com/ErdemIpek/duyuruapp
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](http://forthebadge.com)
+
 Hi! This is a university announcements project written for learning React Native basics.
 
 # Screenshots: 
