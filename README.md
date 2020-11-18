@@ -8,7 +8,7 @@
 </h1>
 <br>
 <p><font size="3">
-This project is created for learning React Native basics. Use the menu links to jump between sections.  All of the code is under the <em>directories</em> directory and free to use and contribute to.
+This project is created for learning React Native basics. Use the menu links to jump between sections.  All of the code is under the <em>directories</em> and free to use and contribute to.
   <h1 align="center">
   Available for Android
     <br>
