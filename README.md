@@ -43,7 +43,7 @@ This project is created for learning React Native basics. Use the menu links to 
 <br><br>
 <h1 align="center" >Web Scrapper</h1>
 
-## How does api work
+## How does it work
  For scrapping data from announcement pages, i choose to use beautifulsoup4. Basically it finds strings between or inside tags. Then i store the scrapped data in a database...
  
 ## Modules Used
