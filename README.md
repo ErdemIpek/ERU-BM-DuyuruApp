@@ -15,15 +15,15 @@ This project is created for learning React Native basics. Use the menu links to 
     <img src="https://i.imgur.com/pEqrMEh.png"/>
   </h1>
 
-# Mobile App
+# [Mobile App](https://github.com/ErdemIpek/ERU-BM-DuyuruApp/tree/master/MobileApp)
  - [Features](#features)
  - [Build Process](#build)
  
-# Web Scrapper
+# [Web Scrapper](https://github.com/ErdemIpek/ERU-BM-DuyuruApp/tree/master/Scrapper)
 - [Modules Used](#modules-used)
 - [How does it work?](#how-does-it-work)
 
-# API
+# [API](https://github.com/ErdemIpek/ERU-BM-DuyuruApp/tree/master/API)
 - [Modules Used For API](#modules-used-for-api)
 - [How does it work?](#how-does-api-work)
 <br><br>

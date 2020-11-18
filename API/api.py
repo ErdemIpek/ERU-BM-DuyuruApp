@@ -7,22 +7,23 @@ def get_data(type):
     return(rows)
 
 
-con = pymysql.connect(host="localhost",user="root",passwd="ztR3hdTj5AEa9SE8",database="my_database",port=3306,charset='utf8',cursorclass=pymysql.cursors.DictCursor)
+con = pymysql.connect(host="localhost",charset='utf8',cursorclass=pymysql.cursors.DictCursor)
 cur = con.cursor()
 
 app= Flask(__name__)
-
-@app.route('/bil_muh')
+# Created three routes for the data fetched from three seperate websites.
+@app.route('/bm_page')
 def bil_muh_page():
-    return(jsonify(get_data("bil_muh")))
+    return(jsonify(get_data("bm_page")))
 
-@app.route('/muh_fak')
+@app.route('/gm_page')
 def muh_fak_page():
-    return(jsonify(get_data("muh_fak")))
+    return(jsonify(get_data("gm_page")))
 
-@app.route('/obisis')
+@app.route('/obisis_page')
 def obisis_page():
-    return(jsonify(get_data("obisis")))
+    return(jsonify(get_data("obisis_page")))
 
+#Flask will run on localhost.
 if __name__ == '__main__':
     app.run(host= '0.0.0.0')
