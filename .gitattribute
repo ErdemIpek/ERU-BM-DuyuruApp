@@ -1,0 +1,8 @@
+*.md linguist-detectable= false
+*.m linguist-detectable= false
+*.xml linguist-detectable= false
+*.plist linguist-detectable= false
+*.json linguist-detectable= false
+*.java linguist-detectable= false
+*.gradlew linguist-detectable= false
+*.md linguist-detectable= false
