@@ -6,3 +6,5 @@
 *.java linguist-detectable= false
 *.gradlew linguist-detectable= false
 *.md linguist-detectable= false
+*.js linguist-detectable=true
+*.py linguist-detectable=true
